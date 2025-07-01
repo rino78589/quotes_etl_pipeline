@@ -32,8 +32,7 @@
 2.  **Создайте и активируйте виртуальное окружение:**
     ```bash
     python -m venv venv
-    source venv/Scripts/activate  # Для Windows (Git Bash)
-    # source venv/bin/activate    # Для macOS/Linux
+    source venv/Scripts/activate 
     ```
 
 3.  **Установите необходимые библиотеки:**
@@ -41,7 +40,7 @@
     pip install requests
     ```
 
-4.  **Установите кодировку для корректного отображения (для Windows в Git Bash):**
+4.  **Установите кодировку для корректного отображения:**
     ```bash
     export PYTHONIOENCODING=utf-8
     ```
